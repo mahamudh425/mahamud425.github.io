@@ -60,3 +60,10 @@ a:hover { text-decoration: underline; }
   .site-nav.open { display: block; position: absolute; top: 56px; right: 4%; left: 4%; background: var(--card); padding: .5rem; border-radius: .75rem; border: 1px solid rgba(255,255,255,.08); }
   .site-nav ul { flex-direction: column; }
 }
+
+.gallery img {
+  width: 100%;
+  border-radius: .75rem;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: #0b1020;
+}
